@@ -1,0 +1,1151 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F89E9EFCD4DF0B9F6E53FF6 /* Pods_Weiboo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545844673B853E10EEA511E8 /* Pods_Weiboo.framework */; };
+		191580432C707F9000C88057 /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191580422C707F9000C88057 /* CustomButtonStyle.swift */; };
+		192A76012C6CF276005901A9 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192A76002C6CF276005901A9 /* PostDetailView.swift */; };
+		192A76032C6CFCD2005901A9 /* HomeNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192A76022C6CFCD2005901A9 /* HomeNavigationBar.swift */; };
+		192A76052C6D026C005901A9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192A76042C6D026C005901A9 /* HomeView.swift */; };
+		192A76072C6D045B005901A9 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192A76062C6D045B005901A9 /* UserData.swift */; };
+		192A76092C6D159A005901A9 /* HScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192A76082C6D159A005901A9 /* HScrollViewController.swift */; };
+		199C39962C6B970400D795F1 /* WeibooApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199C39952C6B970400D795F1 /* WeibooApp.swift */; };
+		199C39982C6B970400D795F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199C39972C6B970400D795F1 /* ContentView.swift */; };
+		199C399A2C6B970600D795F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 199C39992C6B970600D795F1 /* Assets.xcassets */; };
+		199C399D2C6B970600D795F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 199C399C2C6B970600D795F1 /* Preview Assets.xcassets */; };
+		199C39A72C6B970700D795F1 /* WeibooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199C39A62C6B970700D795F1 /* WeibooTests.swift */; };
+		199C39B12C6B970700D795F1 /* WeibooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199C39B02C6B970700D795F1 /* WeibooUITests.swift */; };
+		199C39B32C6B970700D795F1 /* WeibooUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199C39B22C6B970700D795F1 /* WeibooUITestsLaunchTests.swift */; };
+		199C39C22C6B989000D795F1 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199C39C12C6B989000D795F1 /* PostCell.swift */; };
+		199C3A172C6B9E6D00D795F1 /* 4e7f0c83gy1gam2misv31j21hc0u016k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39C32C6B9E6D00D795F1 /* 4e7f0c83gy1gam2misv31j21hc0u016k.jpg */; };
+		199C3A182C6B9E6D00D795F1 /* 4e7f0c83gy1gam2mjhk8zj21hc0v6wnx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39C42C6B9E6D00D795F1 /* 4e7f0c83gy1gam2mjhk8zj21hc0v6wnx.jpg */; };
+		199C3A192C6B9E6D00D795F1 /* 4e7f0c83gy1gam2ml6nucj22tc240kjl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39C52C6B9E6D00D795F1 /* 4e7f0c83gy1gam2ml6nucj22tc240kjl.jpg */; };
+		199C3A1A2C6B9E6D00D795F1 /* 4e7f0c83gy1gam2mn58d3j22tc240qv5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39C62C6B9E6D00D795F1 /* 4e7f0c83gy1gam2mn58d3j22tc240qv5.jpg */; };
+		199C3A1B2C6B9E6D00D795F1 /* 4e7f0c83gy1gam2mp0x4pj22tc240u0x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39C72C6B9E6D00D795F1 /* 4e7f0c83gy1gam2mp0x4pj22tc240u0x.jpg */; };
+		199C3A1C2C6B9E6D00D795F1 /* 4e7f0c83gy1gam2mr1b81j22tc2407wi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39C82C6B9E6D00D795F1 /* 4e7f0c83gy1gam2mr1b81j22tc2407wi.jpg */; };
+		199C3A1D2C6B9E6D00D795F1 /* 4e7f0c83ly8g1ho507078j20ro0rojtq.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39C92C6B9E6D00D795F1 /* 4e7f0c83ly8g1ho507078j20ro0rojtq.jpg */; };
+		199C3A1E2C6B9E6D00D795F1 /* 005tnxzUly8gab4i2r73xj30u00u0js8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39CA2C6B9E6D00D795F1 /* 005tnxzUly8gab4i2r73xj30u00u0js8.jpg */; };
+		199C3A1F2C6B9E6D00D795F1 /* 6a2afec3gy1gaulykcejqj20t5145wns.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39CB2C6B9E6D00D795F1 /* 6a2afec3gy1gaulykcejqj20t5145wns.jpg */; };
+		199C3A202C6B9E6D00D795F1 /* 6a2afec3jw8fb4ld0qf2gj20e80dsdfz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39CC2C6B9E6D00D795F1 /* 6a2afec3jw8fb4ld0qf2gj20e80dsdfz.jpg */; };
+		199C3A212C6B9E6D00D795F1 /* 6ec3b446gy1gavd4xud8lj20j60qkwj0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39CD2C6B9E6D00D795F1 /* 6ec3b446gy1gavd4xud8lj20j60qkwj0.jpg */; };
+		199C3A222C6B9E6D00D795F1 /* 6ec3b446gy1gavd51jc4lj20j60pmwhl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39CE2C6B9E6D00D795F1 /* 6ec3b446gy1gavd51jc4lj20j60pmwhl.jpg */; };
+		199C3A232C6B9E6D00D795F1 /* 6ec3b446gy1gavd523embj20j60pytd6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39CF2C6B9E6D00D795F1 /* 6ec3b446gy1gavd523embj20j60pytd6.jpg */; };
+		199C3A242C6B9E6D00D795F1 /* 6ec3b446jw1e8qgp5bmzyj2050050aa8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39D02C6B9E6D00D795F1 /* 6ec3b446jw1e8qgp5bmzyj2050050aa8.jpg */; };
+		199C3A252C6B9E6D00D795F1 /* 006gWxMEly1gavap8dywoj30hs0bwq48.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39D12C6B9E6D00D795F1 /* 006gWxMEly1gavap8dywoj30hs0bwq48.jpg */; };
+		199C3A262C6B9E6D00D795F1 /* 006gWxMEly1gavap8vsqaj30hs0bwgm6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39D22C6B9E6D00D795F1 /* 006gWxMEly1gavap8vsqaj30hs0bwgm6.jpg */; };
+		199C3A272C6B9E6D00D795F1 /* 006gWxMEly1gavap86qr9j30ht0qo40t.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39D32C6B9E6D00D795F1 /* 006gWxMEly1gavap86qr9j30ht0qo40t.jpg */; };
+		199C3A282C6B9E6D00D795F1 /* 006gWxMEly1gavap88gttj30hs0a0dgf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39D42C6B9E6D00D795F1 /* 006gWxMEly1gavap88gttj30hs0a0dgf.jpg */; };
+		199C3A292C6B9E6D00D795F1 /* 006gWxMEly8g0bjpl3ynij30kv0kv773.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39D52C6B9E6D00D795F1 /* 006gWxMEly8g0bjpl3ynij30kv0kv773.jpg */; };
+		199C3A2A2C6B9E6D00D795F1 /* 006PdkDogy1gap6ngiyn3j30u011idle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39D62C6B9E6D00D795F1 /* 006PdkDogy1gap6ngiyn3j30u011idle.jpg */; };
+		199C3A2B2C6B9E6D00D795F1 /* 006PdkDogy1gap6ngj12ej30u011itf7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39D72C6B9E6D00D795F1 /* 006PdkDogy1gap6ngj12ej30u011itf7.jpg */; };
+		199C3A2C2C6B9E6D00D795F1 /* 006PdkDoly8ffywe2fq39j304g04gwed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39D82C6B9E6D00D795F1 /* 006PdkDoly8ffywe2fq39j304g04gwed.jpg */; };
+		199C3A2D2C6B9E6D00D795F1 /* 7f9147a5ly1fzxlgxgzpij20e90fltsj.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39D92C6B9E6D00D795F1 /* 7f9147a5ly1fzxlgxgzpij20e90fltsj.jpg */; };
+		199C3A2E2C6B9E6D00D795F1 /* 7f9147a5ly1fzxlh4ovuej20e90fl4fo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39DA2C6B9E6D00D795F1 /* 7f9147a5ly1fzxlh4ovuej20e90fl4fo.jpg */; };
+		199C3A2F2C6B9E6D00D795F1 /* 7f9147a5ly1fzxlh6hzdnj20e90fl7me.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39DB2C6B9E6D00D795F1 /* 7f9147a5ly1fzxlh6hzdnj20e90fl7me.jpg */; };
+		199C3A302C6B9E6D00D795F1 /* 8a0b5544gy1gauy2ex786j20u0129aed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39DC2C6B9E6D00D795F1 /* 8a0b5544gy1gauy2ex786j20u0129aed.jpg */; };
+		199C3A312C6B9E6D00D795F1 /* 8a0b5544gy1gauy2flua6j20u00hitab.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39DD2C6B9E6D00D795F1 /* 8a0b5544gy1gauy2flua6j20u00hitab.jpg */; };
+		199C3A322C6B9E6D00D795F1 /* 8a0b5544gy1gauy2g35yoj20u00fomzf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39DE2C6B9E6D00D795F1 /* 8a0b5544gy1gauy2g35yoj20u00fomzf.jpg */; };
+		199C3A332C6B9E6D00D795F1 /* 8a0b5544gy1gauy2gmkg9j20u00gegnp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39DF2C6B9E6D00D795F1 /* 8a0b5544gy1gauy2gmkg9j20u00gegnp.jpg */; };
+		199C3A342C6B9E6D00D795F1 /* 8a0b5544gy1gauy2gz000j20u00n6wgj.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39E02C6B9E6D00D795F1 /* 8a0b5544gy1gauy2gz000j20u00n6wgj.jpg */; };
+		199C3A352C6B9E6D00D795F1 /* 8a0b5544gy1gauy2hcozsj20u01czdiy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39E12C6B9E6D00D795F1 /* 8a0b5544gy1gauy2hcozsj20u01czdiy.jpg */; };
+		199C3A362C6B9E6D00D795F1 /* 8a0b5544jw1e8qgp5bmzyj2050050aa8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39E22C6B9E6D00D795F1 /* 8a0b5544jw1e8qgp5bmzyj2050050aa8.jpg */; };
+		199C3A372C6B9E6D00D795F1 /* 9dc7402fgy1gavd37l9nwj20j60ny44q.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39E32C6B9E6D00D795F1 /* 9dc7402fgy1gavd37l9nwj20j60ny44q.jpg */; };
+		199C3A382C6B9E6D00D795F1 /* 9dc7402fgy1gavd38kqjtj20j60nyn1d.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39E42C6B9E6D00D795F1 /* 9dc7402fgy1gavd38kqjtj20j60nyn1d.jpg */; };
+		199C3A392C6B9E6D00D795F1 /* 9dc7402fgy1gavd38wwlrj20j60nyq6y.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39E52C6B9E6D00D795F1 /* 9dc7402fgy1gavd38wwlrj20j60nyq6y.jpg */; };
+		199C3A3A2C6B9E6D00D795F1 /* 9dc7402fgy1gavd39ba15j20j60nywii.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39E62C6B9E6D00D795F1 /* 9dc7402fgy1gavd39ba15j20j60nywii.jpg */; };
+		199C3A3B2C6B9E6D00D795F1 /* 9dc7402fgy1gavd367p0pj20j60nywic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39E72C6B9E6D00D795F1 /* 9dc7402fgy1gavd367p0pj20j60nywic.jpg */; };
+		199C3A3C2C6B9E6D00D795F1 /* 9dc7402fjw1e8qgp5bmzyj2050050aa8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39E82C6B9E6D00D795F1 /* 9dc7402fjw1e8qgp5bmzyj2050050aa8.jpg */; };
+		199C3A3D2C6B9E6E00D795F1 /* 648ed25bjw8est9nqrtnij20500503yr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39E92C6B9E6D00D795F1 /* 648ed25bjw8est9nqrtnij20500503yr.jpg */; };
+		199C3A3E2C6B9E6E00D795F1 /* 700a34f6gy1gaunswwui7j20j60pl78e.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39EA2C6B9E6D00D795F1 /* 700a34f6gy1gaunswwui7j20j60pl78e.jpg */; };
+		199C3A3F2C6B9E6E00D795F1 /* 700a34f6gy1gaunswxtlrj20j60pkgok.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39EB2C6B9E6D00D795F1 /* 700a34f6gy1gaunswxtlrj20j60pkgok.jpg */; };
+		199C3A402C6B9E6E00D795F1 /* 700a34f6gy1gaunswy5qnj20j60pkadk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39EC2C6B9E6D00D795F1 /* 700a34f6gy1gaunswy5qnj20j60pkadk.jpg */; };
+		199C3A412C6B9E6E00D795F1 /* 700a34f6gy1gaunsx2jywj20j60pkaeu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39ED2C6B9E6D00D795F1 /* 700a34f6gy1gaunsx2jywj20j60pkaeu.jpg */; };
+		199C3A422C6B9E6E00D795F1 /* 700a34f6gy1gaunsxgzixj20j60edmz8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39EE2C6B9E6D00D795F1 /* 700a34f6gy1gaunsxgzixj20j60edmz8.jpg */; };
+		199C3A432C6B9E6E00D795F1 /* 700a34f6gy1gaunsxhp4pj20j60pkn1k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39EF2C6B9E6D00D795F1 /* 700a34f6gy1gaunsxhp4pj20j60pkn1k.jpg */; };
+		199C3A442C6B9E6E00D795F1 /* 700a34f6ly8g9a29rjt92j20fn0iqdg8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39F02C6B9E6D00D795F1 /* 700a34f6ly8g9a29rjt92j20fn0iqdg8.jpg */; };
+		199C3A452C6B9E6E00D795F1 /* 8697cf1ely8gashxj3b09j20u00u040v.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39F12C6B9E6D00D795F1 /* 8697cf1ely8gashxj3b09j20u00u040v.jpg */; };
+		199C3A462C6B9E6E00D795F1 /* 630584a6gy1gau54zgaxhj20m80et0vq.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39F22C6B9E6D00D795F1 /* 630584a6gy1gau54zgaxhj20m80et0vq.jpg */; };
+		199C3A472C6B9E6E00D795F1 /* 630584a6gy1gau54zl806j20m80etmzo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39F32C6B9E6D00D795F1 /* 630584a6gy1gau54zl806j20m80etmzo.jpg */; };
+		199C3A482C6B9E6E00D795F1 /* 630584a6gy1gau54zm4dtj20m80dftbv.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39F42C6B9E6D00D795F1 /* 630584a6gy1gau54zm4dtj20m80dftbv.jpg */; };
+		199C3A492C6B9E6E00D795F1 /* 630584a6gy1gau54zyj61j20m80etn07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39F52C6B9E6D00D795F1 /* 630584a6gy1gau54zyj61j20m80etn07.jpg */; };
+		199C3A4A2C6B9E6E00D795F1 /* 630584a6ly8fqs5wwkkmrj20ku0kuta7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39F62C6B9E6D00D795F1 /* 630584a6ly8fqs5wwkkmrj20ku0kuta7.jpg */; };
+		199C3A4B2C6B9E6E00D795F1 /* 76297935ly1gatz8g5rvxj22c03401kz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39F72C6B9E6D00D795F1 /* 76297935ly1gatz8g5rvxj22c03401kz.jpg */; };
+		199C3A4C2C6B9E6E00D795F1 /* 76297935ly1gatz8k5itij22c02c01ky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39F82C6B9E6D00D795F1 /* 76297935ly1gatz8k5itij22c02c01ky.jpg */; };
+		199C3A4D2C6B9E6E00D795F1 /* 76297935ly1gatz8obqvkj22c0340npe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39F92C6B9E6D00D795F1 /* 76297935ly1gatz8obqvkj22c0340npe.jpg */; };
+		199C3A4E2C6B9E6E00D795F1 /* 76297935ly1gatz89dzblj23402c0qv6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39FA2C6B9E6D00D795F1 /* 76297935ly1gatz89dzblj23402c0qv6.jpg */; };
+		199C3A4F2C6B9E6E00D795F1 /* 76297935ly8g4phfkq68hj20u00u0mzt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39FB2C6B9E6D00D795F1 /* 76297935ly8g4phfkq68hj20u00u0mzt.jpg */; };
+		199C3A502C6B9E6E00D795F1 /* bca7fdafgw1ekhkps65b1j2050050dg4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39FC2C6B9E6D00D795F1 /* bca7fdafgw1ekhkps65b1j2050050dg4.jpg */; };
+		199C3A512C6B9E6E00D795F1 /* bca7fdafly1gax1gqd9vmj20c80ayaam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39FD2C6B9E6D00D795F1 /* bca7fdafly1gax1gqd9vmj20c80ayaam.jpg */; };
+		199C3A522C6B9E6E00D795F1 /* bca7fdafly1gax1gqdg6qj20c80avdgl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39FE2C6B9E6D00D795F1 /* bca7fdafly1gax1gqdg6qj20c80avdgl.jpg */; };
+		199C3A532C6B9E6E00D795F1 /* bca7fdafly1gax1gqdhouj20c80axaam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39FF2C6B9E6D00D795F1 /* bca7fdafly1gax1gqdhouj20c80axaam.jpg */; };
+		199C3A542C6B9E6E00D795F1 /* bca7fdafly1gax1gqdnboj20c80atmxp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C3A002C6B9E6D00D795F1 /* bca7fdafly1gax1gqdnboj20c80atmxp.jpg */; };
+		199C3A552C6B9E6E00D795F1 /* bca7fdafly1gax1gqehdaj20c80atq3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C3A012C6B9E6D00D795F1 /* bca7fdafly1gax1gqehdaj20c80atq3x.jpg */; };
+		199C3A562C6B9E6E00D795F1 /* bca7fdafly1gax1gqfgsjj20c80axaay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C3A022C6B9E6D00D795F1 /* bca7fdafly1gax1gqfgsjj20c80axaay.jpg */; };
+		199C3A572C6B9E6E00D795F1 /* c5aa834fgy1gauzr6venkj20u01hc12f.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C3A032C6B9E6D00D795F1 /* c5aa834fgy1gauzr6venkj20u01hc12f.jpg */; };
+		199C3A582C6B9E6E00D795F1 /* c5aa834fgy1gauzr8ok78j20tz12fk8w.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C3A042C6B9E6D00D795F1 /* c5aa834fgy1gauzr8ok78j20tz12fk8w.jpg */; };
+		199C3A592C6B9E6E00D795F1 /* c5aa834fgy1gauzr86bp5j20pb0w47in.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C3A052C6B9E6D00D795F1 /* c5aa834fgy1gauzr86bp5j20pb0w47in.jpg */; };
+		199C3A5A2C6B9E6E00D795F1 /* c5aa834fgy1gauzr95r6fj20tw0l3dq4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C3A062C6B9E6D00D795F1 /* c5aa834fgy1gauzr95r6fj20tw0l3dq4.jpg */; };
+		199C3A5B2C6B9E6E00D795F1 /* c5aa834fgy1gauzrb7s5ej20tz13qh5x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C3A072C6B9E6D00D795F1 /* c5aa834fgy1gauzrb7s5ej20tz13qh5x.jpg */; };
+		199C3A5C2C6B9E6E00D795F1 /* c5aa834fly8g97m8ix9lcj20re0regnk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C3A082C6B9E6D00D795F1 /* c5aa834fly8g97m8ix9lcj20re0regnk.jpg */; };
+		199C3A5D2C6B9E6E00D795F1 /* d0c21786ly1gavj2btv6tj20c80790tg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C3A092C6B9E6D00D795F1 /* d0c21786ly1gavj2btv6tj20c80790tg.jpg */; };
+		199C3A5E2C6B9E6E00D795F1 /* d0c21786ly1gavj2c0kcej20c8096dh7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C3A0A2C6B9E6D00D795F1 /* d0c21786ly1gavj2c0kcej20c8096dh7.jpg */; };
+		199C3A5F2C6B9E6E00D795F1 /* d0c21786ly1gavj2cdrkyj20c80720tg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C3A0B2C6B9E6D00D795F1 /* d0c21786ly1gavj2cdrkyj20c80720tg.jpg */; };
+		199C3A602C6B9E6E00D795F1 /* d0c21786ly1gavj2cowp9j20c8083ab4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C3A0C2C6B9E6D00D795F1 /* d0c21786ly1gavj2cowp9j20c8083ab4.jpg */; };
+		199C3A612C6B9E6E00D795F1 /* d0c21786ly1gavj2d17d9j20c808zq3r.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C3A0D2C6B9E6D00D795F1 /* d0c21786ly1gavj2d17d9j20c808zq3r.jpg */; };
+		199C3A622C6B9E6E00D795F1 /* d0c21786ly8fsax1ftiifj20ro0ro43g.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C3A0E2C6B9E6D00D795F1 /* d0c21786ly8fsax1ftiifj20ro0ro43g.jpg */; };
+		199C3A632C6B9E6E00D795F1 /* eb5c94aegy1gav25n5ibjj20zk1h8wuu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C3A0F2C6B9E6D00D795F1 /* eb5c94aegy1gav25n5ibjj20zk1h8wuu.jpg */; };
+		199C3A642C6B9E6E00D795F1 /* eb5c94aegy1gav25ox6dvj20u00k1go9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C3A102C6B9E6D00D795F1 /* eb5c94aegy1gav25ox6dvj20u00k1go9.jpg */; };
+		199C3A652C6B9E6E00D795F1 /* eb5c94aegy1gav26fycwlj20zk1h8drh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C3A112C6B9E6D00D795F1 /* eb5c94aegy1gav26fycwlj20zk1h8drh.jpg */; };
+		199C3A662C6B9E6E00D795F1 /* eb5c94aegy1gav2509cp5j20zk0k0n2j.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C3A122C6B9E6D00D795F1 /* eb5c94aegy1gav2509cp5j20zk0k0n2j.jpg */; };
+		199C3A672C6B9E6E00D795F1 /* eb5c94aely8fmvumnl9baj20v90v9q49.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C3A132C6B9E6D00D795F1 /* eb5c94aely8fmvumnl9baj20v90v9q49.jpg */; };
+		199C3A682C6B9E6E00D795F1 /* PostListData_hot_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 199C3A142C6B9E6D00D795F1 /* PostListData_hot_1.json */; };
+		199C3A692C6B9E6E00D795F1 /* PostListData_recommend_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 199C3A152C6B9E6D00D795F1 /* PostListData_recommend_1.json */; };
+		199C3A6B2C6BA1B600D795F1 /* PostVipBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199C3A6A2C6BA1B600D795F1 /* PostVipBadge.swift */; };
+		199C3A6F2C6BA54F00D795F1 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199C3A6E2C6BA54F00D795F1 /* PostModel.swift */; };
+		19B12F272C70D43E00773450 /* NetworkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B12F262C70D43E00773450 /* NetworkAPI.swift */; };
+		19B12F292C70D44B00773450 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B12F282C70D44B00773450 /* NetworkManager.swift */; };
+		19E3D2852C6BB33000BBD4C2 /* PostCellToolBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E3D2842C6BB33000BBD4C2 /* PostCellToolBarButton.swift */; };
+		19E3D2872C6BBA2800BBD4C2 /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E3D2862C6BBA2800BBD4C2 /* PostListView.swift */; };
+		19E3D2892C6BC3BA00BBD4C2 /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E3D2882C6BC3BA00BBD4C2 /* PostImageCell.swift */; };
+		19F10AB52C6E475200702EA1 /* CommentInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F10AB42C6E475200702EA1 /* CommentInputView.swift */; };
+		19F10AB72C6E49EF00702EA1 /* CommentTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F10AB62C6E49EF00702EA1 /* CommentTextView.swift */; };
+		19F10AB92C6E4EBC00702EA1 /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F10AB82C6E4EBC00702EA1 /* KeyboardResponder.swift */; };
+		A50624FCF92381B4841C52F0 /* Pods_WeibooTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89010157DED9D7B5F25A5A65 /* Pods_WeibooTests.framework */; };
+		EE364B34A6626F37A65AD1B0 /* Pods_Weiboo_WeibooUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F702072D27CF44A6147CFF9A /* Pods_Weiboo_WeibooUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		199C39A32C6B970700D795F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 199C398A2C6B970400D795F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 199C39912C6B970400D795F1;
+			remoteInfo = Weiboo;
+		};
+		199C39AD2C6B970700D795F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 199C398A2C6B970400D795F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 199C39912C6B970400D795F1;
+			remoteInfo = Weiboo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		191580422C707F9000C88057 /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
+		192A76002C6CF276005901A9 /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
+		192A76022C6CFCD2005901A9 /* HomeNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationBar.swift; sourceTree = "<group>"; };
+		192A76042C6D026C005901A9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		192A76062C6D045B005901A9 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		192A76082C6D159A005901A9 /* HScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HScrollViewController.swift; sourceTree = "<group>"; };
+		199C39922C6B970400D795F1 /* Weiboo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weiboo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		199C39952C6B970400D795F1 /* WeibooApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeibooApp.swift; sourceTree = "<group>"; };
+		199C39972C6B970400D795F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		199C39992C6B970600D795F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		199C399C2C6B970600D795F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		199C39A22C6B970700D795F1 /* WeibooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeibooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		199C39A62C6B970700D795F1 /* WeibooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeibooTests.swift; sourceTree = "<group>"; };
+		199C39AC2C6B970700D795F1 /* WeibooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeibooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		199C39B02C6B970700D795F1 /* WeibooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeibooUITests.swift; sourceTree = "<group>"; };
+		199C39B22C6B970700D795F1 /* WeibooUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeibooUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		199C39C12C6B989000D795F1 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		199C39C32C6B9E6D00D795F1 /* 4e7f0c83gy1gam2misv31j21hc0u016k.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4e7f0c83gy1gam2misv31j21hc0u016k.jpg; sourceTree = "<group>"; };
+		199C39C42C6B9E6D00D795F1 /* 4e7f0c83gy1gam2mjhk8zj21hc0v6wnx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4e7f0c83gy1gam2mjhk8zj21hc0v6wnx.jpg; sourceTree = "<group>"; };
+		199C39C52C6B9E6D00D795F1 /* 4e7f0c83gy1gam2ml6nucj22tc240kjl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4e7f0c83gy1gam2ml6nucj22tc240kjl.jpg; sourceTree = "<group>"; };
+		199C39C62C6B9E6D00D795F1 /* 4e7f0c83gy1gam2mn58d3j22tc240qv5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4e7f0c83gy1gam2mn58d3j22tc240qv5.jpg; sourceTree = "<group>"; };
+		199C39C72C6B9E6D00D795F1 /* 4e7f0c83gy1gam2mp0x4pj22tc240u0x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4e7f0c83gy1gam2mp0x4pj22tc240u0x.jpg; sourceTree = "<group>"; };
+		199C39C82C6B9E6D00D795F1 /* 4e7f0c83gy1gam2mr1b81j22tc2407wi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4e7f0c83gy1gam2mr1b81j22tc2407wi.jpg; sourceTree = "<group>"; };
+		199C39C92C6B9E6D00D795F1 /* 4e7f0c83ly8g1ho507078j20ro0rojtq.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4e7f0c83ly8g1ho507078j20ro0rojtq.jpg; sourceTree = "<group>"; };
+		199C39CA2C6B9E6D00D795F1 /* 005tnxzUly8gab4i2r73xj30u00u0js8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 005tnxzUly8gab4i2r73xj30u00u0js8.jpg; sourceTree = "<group>"; };
+		199C39CB2C6B9E6D00D795F1 /* 6a2afec3gy1gaulykcejqj20t5145wns.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6a2afec3gy1gaulykcejqj20t5145wns.jpg; sourceTree = "<group>"; };
+		199C39CC2C6B9E6D00D795F1 /* 6a2afec3jw8fb4ld0qf2gj20e80dsdfz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6a2afec3jw8fb4ld0qf2gj20e80dsdfz.jpg; sourceTree = "<group>"; };
+		199C39CD2C6B9E6D00D795F1 /* 6ec3b446gy1gavd4xud8lj20j60qkwj0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6ec3b446gy1gavd4xud8lj20j60qkwj0.jpg; sourceTree = "<group>"; };
+		199C39CE2C6B9E6D00D795F1 /* 6ec3b446gy1gavd51jc4lj20j60pmwhl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6ec3b446gy1gavd51jc4lj20j60pmwhl.jpg; sourceTree = "<group>"; };
+		199C39CF2C6B9E6D00D795F1 /* 6ec3b446gy1gavd523embj20j60pytd6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6ec3b446gy1gavd523embj20j60pytd6.jpg; sourceTree = "<group>"; };
+		199C39D02C6B9E6D00D795F1 /* 6ec3b446jw1e8qgp5bmzyj2050050aa8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6ec3b446jw1e8qgp5bmzyj2050050aa8.jpg; sourceTree = "<group>"; };
+		199C39D12C6B9E6D00D795F1 /* 006gWxMEly1gavap8dywoj30hs0bwq48.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 006gWxMEly1gavap8dywoj30hs0bwq48.jpg; sourceTree = "<group>"; };
+		199C39D22C6B9E6D00D795F1 /* 006gWxMEly1gavap8vsqaj30hs0bwgm6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 006gWxMEly1gavap8vsqaj30hs0bwgm6.jpg; sourceTree = "<group>"; };
+		199C39D32C6B9E6D00D795F1 /* 006gWxMEly1gavap86qr9j30ht0qo40t.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 006gWxMEly1gavap86qr9j30ht0qo40t.jpg; sourceTree = "<group>"; };
+		199C39D42C6B9E6D00D795F1 /* 006gWxMEly1gavap88gttj30hs0a0dgf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 006gWxMEly1gavap88gttj30hs0a0dgf.jpg; sourceTree = "<group>"; };
+		199C39D52C6B9E6D00D795F1 /* 006gWxMEly8g0bjpl3ynij30kv0kv773.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 006gWxMEly8g0bjpl3ynij30kv0kv773.jpg; sourceTree = "<group>"; };
+		199C39D62C6B9E6D00D795F1 /* 006PdkDogy1gap6ngiyn3j30u011idle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 006PdkDogy1gap6ngiyn3j30u011idle.jpg; sourceTree = "<group>"; };
+		199C39D72C6B9E6D00D795F1 /* 006PdkDogy1gap6ngj12ej30u011itf7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 006PdkDogy1gap6ngj12ej30u011itf7.jpg; sourceTree = "<group>"; };
+		199C39D82C6B9E6D00D795F1 /* 006PdkDoly8ffywe2fq39j304g04gwed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 006PdkDoly8ffywe2fq39j304g04gwed.jpg; sourceTree = "<group>"; };
+		199C39D92C6B9E6D00D795F1 /* 7f9147a5ly1fzxlgxgzpij20e90fltsj.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7f9147a5ly1fzxlgxgzpij20e90fltsj.jpg; sourceTree = "<group>"; };
+		199C39DA2C6B9E6D00D795F1 /* 7f9147a5ly1fzxlh4ovuej20e90fl4fo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7f9147a5ly1fzxlh4ovuej20e90fl4fo.jpg; sourceTree = "<group>"; };
+		199C39DB2C6B9E6D00D795F1 /* 7f9147a5ly1fzxlh6hzdnj20e90fl7me.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7f9147a5ly1fzxlh6hzdnj20e90fl7me.jpg; sourceTree = "<group>"; };
+		199C39DC2C6B9E6D00D795F1 /* 8a0b5544gy1gauy2ex786j20u0129aed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8a0b5544gy1gauy2ex786j20u0129aed.jpg; sourceTree = "<group>"; };
+		199C39DD2C6B9E6D00D795F1 /* 8a0b5544gy1gauy2flua6j20u00hitab.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8a0b5544gy1gauy2flua6j20u00hitab.jpg; sourceTree = "<group>"; };
+		199C39DE2C6B9E6D00D795F1 /* 8a0b5544gy1gauy2g35yoj20u00fomzf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8a0b5544gy1gauy2g35yoj20u00fomzf.jpg; sourceTree = "<group>"; };
+		199C39DF2C6B9E6D00D795F1 /* 8a0b5544gy1gauy2gmkg9j20u00gegnp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8a0b5544gy1gauy2gmkg9j20u00gegnp.jpg; sourceTree = "<group>"; };
+		199C39E02C6B9E6D00D795F1 /* 8a0b5544gy1gauy2gz000j20u00n6wgj.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8a0b5544gy1gauy2gz000j20u00n6wgj.jpg; sourceTree = "<group>"; };
+		199C39E12C6B9E6D00D795F1 /* 8a0b5544gy1gauy2hcozsj20u01czdiy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8a0b5544gy1gauy2hcozsj20u01czdiy.jpg; sourceTree = "<group>"; };
+		199C39E22C6B9E6D00D795F1 /* 8a0b5544jw1e8qgp5bmzyj2050050aa8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8a0b5544jw1e8qgp5bmzyj2050050aa8.jpg; sourceTree = "<group>"; };
+		199C39E32C6B9E6D00D795F1 /* 9dc7402fgy1gavd37l9nwj20j60ny44q.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9dc7402fgy1gavd37l9nwj20j60ny44q.jpg; sourceTree = "<group>"; };
+		199C39E42C6B9E6D00D795F1 /* 9dc7402fgy1gavd38kqjtj20j60nyn1d.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9dc7402fgy1gavd38kqjtj20j60nyn1d.jpg; sourceTree = "<group>"; };
+		199C39E52C6B9E6D00D795F1 /* 9dc7402fgy1gavd38wwlrj20j60nyq6y.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9dc7402fgy1gavd38wwlrj20j60nyq6y.jpg; sourceTree = "<group>"; };
+		199C39E62C6B9E6D00D795F1 /* 9dc7402fgy1gavd39ba15j20j60nywii.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9dc7402fgy1gavd39ba15j20j60nywii.jpg; sourceTree = "<group>"; };
+		199C39E72C6B9E6D00D795F1 /* 9dc7402fgy1gavd367p0pj20j60nywic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9dc7402fgy1gavd367p0pj20j60nywic.jpg; sourceTree = "<group>"; };
+		199C39E82C6B9E6D00D795F1 /* 9dc7402fjw1e8qgp5bmzyj2050050aa8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9dc7402fjw1e8qgp5bmzyj2050050aa8.jpg; sourceTree = "<group>"; };
+		199C39E92C6B9E6D00D795F1 /* 648ed25bjw8est9nqrtnij20500503yr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 648ed25bjw8est9nqrtnij20500503yr.jpg; sourceTree = "<group>"; };
+		199C39EA2C6B9E6D00D795F1 /* 700a34f6gy1gaunswwui7j20j60pl78e.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 700a34f6gy1gaunswwui7j20j60pl78e.jpg; sourceTree = "<group>"; };
+		199C39EB2C6B9E6D00D795F1 /* 700a34f6gy1gaunswxtlrj20j60pkgok.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 700a34f6gy1gaunswxtlrj20j60pkgok.jpg; sourceTree = "<group>"; };
+		199C39EC2C6B9E6D00D795F1 /* 700a34f6gy1gaunswy5qnj20j60pkadk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 700a34f6gy1gaunswy5qnj20j60pkadk.jpg; sourceTree = "<group>"; };
+		199C39ED2C6B9E6D00D795F1 /* 700a34f6gy1gaunsx2jywj20j60pkaeu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 700a34f6gy1gaunsx2jywj20j60pkaeu.jpg; sourceTree = "<group>"; };
+		199C39EE2C6B9E6D00D795F1 /* 700a34f6gy1gaunsxgzixj20j60edmz8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 700a34f6gy1gaunsxgzixj20j60edmz8.jpg; sourceTree = "<group>"; };
+		199C39EF2C6B9E6D00D795F1 /* 700a34f6gy1gaunsxhp4pj20j60pkn1k.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 700a34f6gy1gaunsxhp4pj20j60pkn1k.jpg; sourceTree = "<group>"; };
+		199C39F02C6B9E6D00D795F1 /* 700a34f6ly8g9a29rjt92j20fn0iqdg8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 700a34f6ly8g9a29rjt92j20fn0iqdg8.jpg; sourceTree = "<group>"; };
+		199C39F12C6B9E6D00D795F1 /* 8697cf1ely8gashxj3b09j20u00u040v.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8697cf1ely8gashxj3b09j20u00u040v.jpg; sourceTree = "<group>"; };
+		199C39F22C6B9E6D00D795F1 /* 630584a6gy1gau54zgaxhj20m80et0vq.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 630584a6gy1gau54zgaxhj20m80et0vq.jpg; sourceTree = "<group>"; };
+		199C39F32C6B9E6D00D795F1 /* 630584a6gy1gau54zl806j20m80etmzo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 630584a6gy1gau54zl806j20m80etmzo.jpg; sourceTree = "<group>"; };
+		199C39F42C6B9E6D00D795F1 /* 630584a6gy1gau54zm4dtj20m80dftbv.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 630584a6gy1gau54zm4dtj20m80dftbv.jpg; sourceTree = "<group>"; };
+		199C39F52C6B9E6D00D795F1 /* 630584a6gy1gau54zyj61j20m80etn07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 630584a6gy1gau54zyj61j20m80etn07.jpg; sourceTree = "<group>"; };
+		199C39F62C6B9E6D00D795F1 /* 630584a6ly8fqs5wwkkmrj20ku0kuta7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 630584a6ly8fqs5wwkkmrj20ku0kuta7.jpg; sourceTree = "<group>"; };
+		199C39F72C6B9E6D00D795F1 /* 76297935ly1gatz8g5rvxj22c03401kz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 76297935ly1gatz8g5rvxj22c03401kz.jpg; sourceTree = "<group>"; };
+		199C39F82C6B9E6D00D795F1 /* 76297935ly1gatz8k5itij22c02c01ky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 76297935ly1gatz8k5itij22c02c01ky.jpg; sourceTree = "<group>"; };
+		199C39F92C6B9E6D00D795F1 /* 76297935ly1gatz8obqvkj22c0340npe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 76297935ly1gatz8obqvkj22c0340npe.jpg; sourceTree = "<group>"; };
+		199C39FA2C6B9E6D00D795F1 /* 76297935ly1gatz89dzblj23402c0qv6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 76297935ly1gatz89dzblj23402c0qv6.jpg; sourceTree = "<group>"; };
+		199C39FB2C6B9E6D00D795F1 /* 76297935ly8g4phfkq68hj20u00u0mzt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 76297935ly8g4phfkq68hj20u00u0mzt.jpg; sourceTree = "<group>"; };
+		199C39FC2C6B9E6D00D795F1 /* bca7fdafgw1ekhkps65b1j2050050dg4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bca7fdafgw1ekhkps65b1j2050050dg4.jpg; sourceTree = "<group>"; };
+		199C39FD2C6B9E6D00D795F1 /* bca7fdafly1gax1gqd9vmj20c80ayaam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bca7fdafly1gax1gqd9vmj20c80ayaam.jpg; sourceTree = "<group>"; };
+		199C39FE2C6B9E6D00D795F1 /* bca7fdafly1gax1gqdg6qj20c80avdgl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bca7fdafly1gax1gqdg6qj20c80avdgl.jpg; sourceTree = "<group>"; };
+		199C39FF2C6B9E6D00D795F1 /* bca7fdafly1gax1gqdhouj20c80axaam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bca7fdafly1gax1gqdhouj20c80axaam.jpg; sourceTree = "<group>"; };
+		199C3A002C6B9E6D00D795F1 /* bca7fdafly1gax1gqdnboj20c80atmxp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bca7fdafly1gax1gqdnboj20c80atmxp.jpg; sourceTree = "<group>"; };
+		199C3A012C6B9E6D00D795F1 /* bca7fdafly1gax1gqehdaj20c80atq3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bca7fdafly1gax1gqehdaj20c80atq3x.jpg; sourceTree = "<group>"; };
+		199C3A022C6B9E6D00D795F1 /* bca7fdafly1gax1gqfgsjj20c80axaay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bca7fdafly1gax1gqfgsjj20c80axaay.jpg; sourceTree = "<group>"; };
+		199C3A032C6B9E6D00D795F1 /* c5aa834fgy1gauzr6venkj20u01hc12f.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c5aa834fgy1gauzr6venkj20u01hc12f.jpg; sourceTree = "<group>"; };
+		199C3A042C6B9E6D00D795F1 /* c5aa834fgy1gauzr8ok78j20tz12fk8w.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c5aa834fgy1gauzr8ok78j20tz12fk8w.jpg; sourceTree = "<group>"; };
+		199C3A052C6B9E6D00D795F1 /* c5aa834fgy1gauzr86bp5j20pb0w47in.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c5aa834fgy1gauzr86bp5j20pb0w47in.jpg; sourceTree = "<group>"; };
+		199C3A062C6B9E6D00D795F1 /* c5aa834fgy1gauzr95r6fj20tw0l3dq4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c5aa834fgy1gauzr95r6fj20tw0l3dq4.jpg; sourceTree = "<group>"; };
+		199C3A072C6B9E6D00D795F1 /* c5aa834fgy1gauzrb7s5ej20tz13qh5x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c5aa834fgy1gauzrb7s5ej20tz13qh5x.jpg; sourceTree = "<group>"; };
+		199C3A082C6B9E6D00D795F1 /* c5aa834fly8g97m8ix9lcj20re0regnk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c5aa834fly8g97m8ix9lcj20re0regnk.jpg; sourceTree = "<group>"; };
+		199C3A092C6B9E6D00D795F1 /* d0c21786ly1gavj2btv6tj20c80790tg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d0c21786ly1gavj2btv6tj20c80790tg.jpg; sourceTree = "<group>"; };
+		199C3A0A2C6B9E6D00D795F1 /* d0c21786ly1gavj2c0kcej20c8096dh7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d0c21786ly1gavj2c0kcej20c8096dh7.jpg; sourceTree = "<group>"; };
+		199C3A0B2C6B9E6D00D795F1 /* d0c21786ly1gavj2cdrkyj20c80720tg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d0c21786ly1gavj2cdrkyj20c80720tg.jpg; sourceTree = "<group>"; };
+		199C3A0C2C6B9E6D00D795F1 /* d0c21786ly1gavj2cowp9j20c8083ab4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d0c21786ly1gavj2cowp9j20c8083ab4.jpg; sourceTree = "<group>"; };
+		199C3A0D2C6B9E6D00D795F1 /* d0c21786ly1gavj2d17d9j20c808zq3r.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d0c21786ly1gavj2d17d9j20c808zq3r.jpg; sourceTree = "<group>"; };
+		199C3A0E2C6B9E6D00D795F1 /* d0c21786ly8fsax1ftiifj20ro0ro43g.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d0c21786ly8fsax1ftiifj20ro0ro43g.jpg; sourceTree = "<group>"; };
+		199C3A0F2C6B9E6D00D795F1 /* eb5c94aegy1gav25n5ibjj20zk1h8wuu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eb5c94aegy1gav25n5ibjj20zk1h8wuu.jpg; sourceTree = "<group>"; };
+		199C3A102C6B9E6D00D795F1 /* eb5c94aegy1gav25ox6dvj20u00k1go9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eb5c94aegy1gav25ox6dvj20u00k1go9.jpg; sourceTree = "<group>"; };
+		199C3A112C6B9E6D00D795F1 /* eb5c94aegy1gav26fycwlj20zk1h8drh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eb5c94aegy1gav26fycwlj20zk1h8drh.jpg; sourceTree = "<group>"; };
+		199C3A122C6B9E6D00D795F1 /* eb5c94aegy1gav2509cp5j20zk0k0n2j.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eb5c94aegy1gav2509cp5j20zk0k0n2j.jpg; sourceTree = "<group>"; };
+		199C3A132C6B9E6D00D795F1 /* eb5c94aely8fmvumnl9baj20v90v9q49.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eb5c94aely8fmvumnl9baj20v90v9q49.jpg; sourceTree = "<group>"; };
+		199C3A142C6B9E6D00D795F1 /* PostListData_hot_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PostListData_hot_1.json; sourceTree = "<group>"; };
+		199C3A152C6B9E6D00D795F1 /* PostListData_recommend_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PostListData_recommend_1.json; sourceTree = "<group>"; };
+		199C3A6A2C6BA1B600D795F1 /* PostVipBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVipBadge.swift; sourceTree = "<group>"; };
+		199C3A6E2C6BA54F00D795F1 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		19B12F262C70D43E00773450 /* NetworkAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAPI.swift; sourceTree = "<group>"; };
+		19B12F282C70D44B00773450 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		19E3D2842C6BB33000BBD4C2 /* PostCellToolBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCellToolBarButton.swift; sourceTree = "<group>"; };
+		19E3D2862C6BBA2800BBD4C2 /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		19E3D2882C6BC3BA00BBD4C2 /* PostImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
+		19F10AB42C6E475200702EA1 /* CommentInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentInputView.swift; sourceTree = "<group>"; };
+		19F10AB62C6E49EF00702EA1 /* CommentTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTextView.swift; sourceTree = "<group>"; };
+		19F10AB82C6E4EBC00702EA1 /* KeyboardResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
+		545844673B853E10EEA511E8 /* Pods_Weiboo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weiboo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A346E461A81055ECB35BEC7 /* Pods-Weiboo-WeibooUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weiboo-WeibooUITests.release.xcconfig"; path = "Target Support Files/Pods-Weiboo-WeibooUITests/Pods-Weiboo-WeibooUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7B3F05C948C9F61D8AA3299B /* Pods-WeibooTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeibooTests.release.xcconfig"; path = "Target Support Files/Pods-WeibooTests/Pods-WeibooTests.release.xcconfig"; sourceTree = "<group>"; };
+		89010157DED9D7B5F25A5A65 /* Pods_WeibooTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeibooTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95418E083B1F8F61F7F21CC2 /* Pods-Weiboo-WeibooUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weiboo-WeibooUITests.debug.xcconfig"; path = "Target Support Files/Pods-Weiboo-WeibooUITests/Pods-Weiboo-WeibooUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF5FE60D381102A8DDFA42EA /* Pods-Weiboo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weiboo.debug.xcconfig"; path = "Target Support Files/Pods-Weiboo/Pods-Weiboo.debug.xcconfig"; sourceTree = "<group>"; };
+		CFF2D5F787902BF8213CD25E /* Pods-WeibooTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeibooTests.debug.xcconfig"; path = "Target Support Files/Pods-WeibooTests/Pods-WeibooTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1C9CED9E746137E2992AD60 /* Pods-Weiboo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weiboo.release.xcconfig"; path = "Target Support Files/Pods-Weiboo/Pods-Weiboo.release.xcconfig"; sourceTree = "<group>"; };
+		F702072D27CF44A6147CFF9A /* Pods_Weiboo_WeibooUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weiboo_WeibooUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		199C398F2C6B970400D795F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F89E9EFCD4DF0B9F6E53FF6 /* Pods_Weiboo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199C399F2C6B970700D795F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50624FCF92381B4841C52F0 /* Pods_WeibooTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199C39A92C6B970700D795F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE364B34A6626F37A65AD1B0 /* Pods_Weiboo_WeibooUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		199C39892C6B970400D795F1 = {
+			isa = PBXGroup;
+			children = (
+				199C39942C6B970400D795F1 /* Weiboo */,
+				199C39A52C6B970700D795F1 /* WeibooTests */,
+				199C39AF2C6B970700D795F1 /* WeibooUITests */,
+				199C39932C6B970400D795F1 /* Products */,
+				3625C9A37B7451B88D431C6D /* Pods */,
+				1C84B9C76084B46514112C27 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		199C39932C6B970400D795F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				199C39922C6B970400D795F1 /* Weiboo.app */,
+				199C39A22C6B970700D795F1 /* WeibooTests.xctest */,
+				199C39AC2C6B970700D795F1 /* WeibooUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		199C39942C6B970400D795F1 /* Weiboo */ = {
+			isa = PBXGroup;
+			children = (
+				199C39952C6B970400D795F1 /* WeibooApp.swift */,
+				192A76042C6D026C005901A9 /* HomeView.swift */,
+				192A76022C6CFCD2005901A9 /* HomeNavigationBar.swift */,
+				19E3D2862C6BBA2800BBD4C2 /* PostListView.swift */,
+				199C39C12C6B989000D795F1 /* PostCell.swift */,
+				19E3D2882C6BC3BA00BBD4C2 /* PostImageCell.swift */,
+				199C3A6A2C6BA1B600D795F1 /* PostVipBadge.swift */,
+				19E3D2842C6BB33000BBD4C2 /* PostCellToolBarButton.swift */,
+				192A76002C6CF276005901A9 /* PostDetailView.swift */,
+				19F10AB42C6E475200702EA1 /* CommentInputView.swift */,
+				19F10AB62C6E49EF00702EA1 /* CommentTextView.swift */,
+				19F10AB82C6E4EBC00702EA1 /* KeyboardResponder.swift */,
+				191580422C707F9000C88057 /* CustomButtonStyle.swift */,
+				199C3A6E2C6BA54F00D795F1 /* PostModel.swift */,
+				192A76062C6D045B005901A9 /* UserData.swift */,
+				19B12F262C70D43E00773450 /* NetworkAPI.swift */,
+				19B12F282C70D44B00773450 /* NetworkManager.swift */,
+				192A76082C6D159A005901A9 /* HScrollViewController.swift */,
+				199C39972C6B970400D795F1 /* ContentView.swift */,
+				199C3A162C6B9E6D00D795F1 /* Resources */,
+				199C39992C6B970600D795F1 /* Assets.xcassets */,
+				199C399B2C6B970600D795F1 /* Preview Content */,
+			);
+			path = Weiboo;
+			sourceTree = "<group>";
+		};
+		199C399B2C6B970600D795F1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				199C399C2C6B970600D795F1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		199C39A52C6B970700D795F1 /* WeibooTests */ = {
+			isa = PBXGroup;
+			children = (
+				199C39A62C6B970700D795F1 /* WeibooTests.swift */,
+			);
+			path = WeibooTests;
+			sourceTree = "<group>";
+		};
+		199C39AF2C6B970700D795F1 /* WeibooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				199C39B02C6B970700D795F1 /* WeibooUITests.swift */,
+				199C39B22C6B970700D795F1 /* WeibooUITestsLaunchTests.swift */,
+			);
+			path = WeibooUITests;
+			sourceTree = "<group>";
+		};
+		199C3A162C6B9E6D00D795F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				199C39C32C6B9E6D00D795F1 /* 4e7f0c83gy1gam2misv31j21hc0u016k.jpg */,
+				199C39C42C6B9E6D00D795F1 /* 4e7f0c83gy1gam2mjhk8zj21hc0v6wnx.jpg */,
+				199C39C52C6B9E6D00D795F1 /* 4e7f0c83gy1gam2ml6nucj22tc240kjl.jpg */,
+				199C39C62C6B9E6D00D795F1 /* 4e7f0c83gy1gam2mn58d3j22tc240qv5.jpg */,
+				199C39C72C6B9E6D00D795F1 /* 4e7f0c83gy1gam2mp0x4pj22tc240u0x.jpg */,
+				199C39C82C6B9E6D00D795F1 /* 4e7f0c83gy1gam2mr1b81j22tc2407wi.jpg */,
+				199C39C92C6B9E6D00D795F1 /* 4e7f0c83ly8g1ho507078j20ro0rojtq.jpg */,
+				199C39CA2C6B9E6D00D795F1 /* 005tnxzUly8gab4i2r73xj30u00u0js8.jpg */,
+				199C39CB2C6B9E6D00D795F1 /* 6a2afec3gy1gaulykcejqj20t5145wns.jpg */,
+				199C39CC2C6B9E6D00D795F1 /* 6a2afec3jw8fb4ld0qf2gj20e80dsdfz.jpg */,
+				199C39CD2C6B9E6D00D795F1 /* 6ec3b446gy1gavd4xud8lj20j60qkwj0.jpg */,
+				199C39CE2C6B9E6D00D795F1 /* 6ec3b446gy1gavd51jc4lj20j60pmwhl.jpg */,
+				199C39CF2C6B9E6D00D795F1 /* 6ec3b446gy1gavd523embj20j60pytd6.jpg */,
+				199C39D02C6B9E6D00D795F1 /* 6ec3b446jw1e8qgp5bmzyj2050050aa8.jpg */,
+				199C39D12C6B9E6D00D795F1 /* 006gWxMEly1gavap8dywoj30hs0bwq48.jpg */,
+				199C39D22C6B9E6D00D795F1 /* 006gWxMEly1gavap8vsqaj30hs0bwgm6.jpg */,
+				199C39D32C6B9E6D00D795F1 /* 006gWxMEly1gavap86qr9j30ht0qo40t.jpg */,
+				199C39D42C6B9E6D00D795F1 /* 006gWxMEly1gavap88gttj30hs0a0dgf.jpg */,
+				199C39D52C6B9E6D00D795F1 /* 006gWxMEly8g0bjpl3ynij30kv0kv773.jpg */,
+				199C39D62C6B9E6D00D795F1 /* 006PdkDogy1gap6ngiyn3j30u011idle.jpg */,
+				199C39D72C6B9E6D00D795F1 /* 006PdkDogy1gap6ngj12ej30u011itf7.jpg */,
+				199C39D82C6B9E6D00D795F1 /* 006PdkDoly8ffywe2fq39j304g04gwed.jpg */,
+				199C39D92C6B9E6D00D795F1 /* 7f9147a5ly1fzxlgxgzpij20e90fltsj.jpg */,
+				199C39DA2C6B9E6D00D795F1 /* 7f9147a5ly1fzxlh4ovuej20e90fl4fo.jpg */,
+				199C39DB2C6B9E6D00D795F1 /* 7f9147a5ly1fzxlh6hzdnj20e90fl7me.jpg */,
+				199C39DC2C6B9E6D00D795F1 /* 8a0b5544gy1gauy2ex786j20u0129aed.jpg */,
+				199C39DD2C6B9E6D00D795F1 /* 8a0b5544gy1gauy2flua6j20u00hitab.jpg */,
+				199C39DE2C6B9E6D00D795F1 /* 8a0b5544gy1gauy2g35yoj20u00fomzf.jpg */,
+				199C39DF2C6B9E6D00D795F1 /* 8a0b5544gy1gauy2gmkg9j20u00gegnp.jpg */,
+				199C39E02C6B9E6D00D795F1 /* 8a0b5544gy1gauy2gz000j20u00n6wgj.jpg */,
+				199C39E12C6B9E6D00D795F1 /* 8a0b5544gy1gauy2hcozsj20u01czdiy.jpg */,
+				199C39E22C6B9E6D00D795F1 /* 8a0b5544jw1e8qgp5bmzyj2050050aa8.jpg */,
+				199C39E32C6B9E6D00D795F1 /* 9dc7402fgy1gavd37l9nwj20j60ny44q.jpg */,
+				199C39E42C6B9E6D00D795F1 /* 9dc7402fgy1gavd38kqjtj20j60nyn1d.jpg */,
+				199C39E52C6B9E6D00D795F1 /* 9dc7402fgy1gavd38wwlrj20j60nyq6y.jpg */,
+				199C39E62C6B9E6D00D795F1 /* 9dc7402fgy1gavd39ba15j20j60nywii.jpg */,
+				199C39E72C6B9E6D00D795F1 /* 9dc7402fgy1gavd367p0pj20j60nywic.jpg */,
+				199C39E82C6B9E6D00D795F1 /* 9dc7402fjw1e8qgp5bmzyj2050050aa8.jpg */,
+				199C39E92C6B9E6D00D795F1 /* 648ed25bjw8est9nqrtnij20500503yr.jpg */,
+				199C39EA2C6B9E6D00D795F1 /* 700a34f6gy1gaunswwui7j20j60pl78e.jpg */,
+				199C39EB2C6B9E6D00D795F1 /* 700a34f6gy1gaunswxtlrj20j60pkgok.jpg */,
+				199C39EC2C6B9E6D00D795F1 /* 700a34f6gy1gaunswy5qnj20j60pkadk.jpg */,
+				199C39ED2C6B9E6D00D795F1 /* 700a34f6gy1gaunsx2jywj20j60pkaeu.jpg */,
+				199C39EE2C6B9E6D00D795F1 /* 700a34f6gy1gaunsxgzixj20j60edmz8.jpg */,
+				199C39EF2C6B9E6D00D795F1 /* 700a34f6gy1gaunsxhp4pj20j60pkn1k.jpg */,
+				199C39F02C6B9E6D00D795F1 /* 700a34f6ly8g9a29rjt92j20fn0iqdg8.jpg */,
+				199C39F12C6B9E6D00D795F1 /* 8697cf1ely8gashxj3b09j20u00u040v.jpg */,
+				199C39F22C6B9E6D00D795F1 /* 630584a6gy1gau54zgaxhj20m80et0vq.jpg */,
+				199C39F32C6B9E6D00D795F1 /* 630584a6gy1gau54zl806j20m80etmzo.jpg */,
+				199C39F42C6B9E6D00D795F1 /* 630584a6gy1gau54zm4dtj20m80dftbv.jpg */,
+				199C39F52C6B9E6D00D795F1 /* 630584a6gy1gau54zyj61j20m80etn07.jpg */,
+				199C39F62C6B9E6D00D795F1 /* 630584a6ly8fqs5wwkkmrj20ku0kuta7.jpg */,
+				199C39F72C6B9E6D00D795F1 /* 76297935ly1gatz8g5rvxj22c03401kz.jpg */,
+				199C39F82C6B9E6D00D795F1 /* 76297935ly1gatz8k5itij22c02c01ky.jpg */,
+				199C39F92C6B9E6D00D795F1 /* 76297935ly1gatz8obqvkj22c0340npe.jpg */,
+				199C39FA2C6B9E6D00D795F1 /* 76297935ly1gatz89dzblj23402c0qv6.jpg */,
+				199C39FB2C6B9E6D00D795F1 /* 76297935ly8g4phfkq68hj20u00u0mzt.jpg */,
+				199C39FC2C6B9E6D00D795F1 /* bca7fdafgw1ekhkps65b1j2050050dg4.jpg */,
+				199C39FD2C6B9E6D00D795F1 /* bca7fdafly1gax1gqd9vmj20c80ayaam.jpg */,
+				199C39FE2C6B9E6D00D795F1 /* bca7fdafly1gax1gqdg6qj20c80avdgl.jpg */,
+				199C39FF2C6B9E6D00D795F1 /* bca7fdafly1gax1gqdhouj20c80axaam.jpg */,
+				199C3A002C6B9E6D00D795F1 /* bca7fdafly1gax1gqdnboj20c80atmxp.jpg */,
+				199C3A012C6B9E6D00D795F1 /* bca7fdafly1gax1gqehdaj20c80atq3x.jpg */,
+				199C3A022C6B9E6D00D795F1 /* bca7fdafly1gax1gqfgsjj20c80axaay.jpg */,
+				199C3A032C6B9E6D00D795F1 /* c5aa834fgy1gauzr6venkj20u01hc12f.jpg */,
+				199C3A042C6B9E6D00D795F1 /* c5aa834fgy1gauzr8ok78j20tz12fk8w.jpg */,
+				199C3A052C6B9E6D00D795F1 /* c5aa834fgy1gauzr86bp5j20pb0w47in.jpg */,
+				199C3A062C6B9E6D00D795F1 /* c5aa834fgy1gauzr95r6fj20tw0l3dq4.jpg */,
+				199C3A072C6B9E6D00D795F1 /* c5aa834fgy1gauzrb7s5ej20tz13qh5x.jpg */,
+				199C3A082C6B9E6D00D795F1 /* c5aa834fly8g97m8ix9lcj20re0regnk.jpg */,
+				199C3A092C6B9E6D00D795F1 /* d0c21786ly1gavj2btv6tj20c80790tg.jpg */,
+				199C3A0A2C6B9E6D00D795F1 /* d0c21786ly1gavj2c0kcej20c8096dh7.jpg */,
+				199C3A0B2C6B9E6D00D795F1 /* d0c21786ly1gavj2cdrkyj20c80720tg.jpg */,
+				199C3A0C2C6B9E6D00D795F1 /* d0c21786ly1gavj2cowp9j20c8083ab4.jpg */,
+				199C3A0D2C6B9E6D00D795F1 /* d0c21786ly1gavj2d17d9j20c808zq3r.jpg */,
+				199C3A0E2C6B9E6D00D795F1 /* d0c21786ly8fsax1ftiifj20ro0ro43g.jpg */,
+				199C3A0F2C6B9E6D00D795F1 /* eb5c94aegy1gav25n5ibjj20zk1h8wuu.jpg */,
+				199C3A102C6B9E6D00D795F1 /* eb5c94aegy1gav25ox6dvj20u00k1go9.jpg */,
+				199C3A112C6B9E6D00D795F1 /* eb5c94aegy1gav26fycwlj20zk1h8drh.jpg */,
+				199C3A122C6B9E6D00D795F1 /* eb5c94aegy1gav2509cp5j20zk0k0n2j.jpg */,
+				199C3A132C6B9E6D00D795F1 /* eb5c94aely8fmvumnl9baj20v90v9q49.jpg */,
+				199C3A142C6B9E6D00D795F1 /* PostListData_hot_1.json */,
+				199C3A152C6B9E6D00D795F1 /* PostListData_recommend_1.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1C84B9C76084B46514112C27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				545844673B853E10EEA511E8 /* Pods_Weiboo.framework */,
+				F702072D27CF44A6147CFF9A /* Pods_Weiboo_WeibooUITests.framework */,
+				89010157DED9D7B5F25A5A65 /* Pods_WeibooTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3625C9A37B7451B88D431C6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF5FE60D381102A8DDFA42EA /* Pods-Weiboo.debug.xcconfig */,
+				E1C9CED9E746137E2992AD60 /* Pods-Weiboo.release.xcconfig */,
+				95418E083B1F8F61F7F21CC2 /* Pods-Weiboo-WeibooUITests.debug.xcconfig */,
+				5A346E461A81055ECB35BEC7 /* Pods-Weiboo-WeibooUITests.release.xcconfig */,
+				CFF2D5F787902BF8213CD25E /* Pods-WeibooTests.debug.xcconfig */,
+				7B3F05C948C9F61D8AA3299B /* Pods-WeibooTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		199C39912C6B970400D795F1 /* Weiboo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 199C39B62C6B970700D795F1 /* Build configuration list for PBXNativeTarget "Weiboo" */;
+			buildPhases = (
+				CA228F09FEA9FC128C5F7EDA /* [CP] Check Pods Manifest.lock */,
+				199C398E2C6B970400D795F1 /* Sources */,
+				199C398F2C6B970400D795F1 /* Frameworks */,
+				199C39902C6B970400D795F1 /* Resources */,
+				57B3E8885BB00309FA632382 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Weiboo;
+			productName = Weiboo;
+			productReference = 199C39922C6B970400D795F1 /* Weiboo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		199C39A12C6B970700D795F1 /* WeibooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 199C39B92C6B970700D795F1 /* Build configuration list for PBXNativeTarget "WeibooTests" */;
+			buildPhases = (
+				A37302504151166691071D08 /* [CP] Check Pods Manifest.lock */,
+				199C399E2C6B970700D795F1 /* Sources */,
+				199C399F2C6B970700D795F1 /* Frameworks */,
+				199C39A02C6B970700D795F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				199C39A42C6B970700D795F1 /* PBXTargetDependency */,
+			);
+			name = WeibooTests;
+			productName = WeibooTests;
+			productReference = 199C39A22C6B970700D795F1 /* WeibooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		199C39AB2C6B970700D795F1 /* WeibooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 199C39BC2C6B970700D795F1 /* Build configuration list for PBXNativeTarget "WeibooUITests" */;
+			buildPhases = (
+				27AB6C3F661A2B4497707A2E /* [CP] Check Pods Manifest.lock */,
+				199C39A82C6B970700D795F1 /* Sources */,
+				199C39A92C6B970700D795F1 /* Frameworks */,
+				199C39AA2C6B970700D795F1 /* Resources */,
+				0E6F0386B4D3A184E791C701 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				199C39AE2C6B970700D795F1 /* PBXTargetDependency */,
+			);
+			name = WeibooUITests;
+			productName = WeibooUITests;
+			productReference = 199C39AC2C6B970700D795F1 /* WeibooUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		199C398A2C6B970400D795F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					199C39912C6B970400D795F1 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					199C39A12C6B970700D795F1 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 199C39912C6B970400D795F1;
+					};
+					199C39AB2C6B970700D795F1 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 199C39912C6B970400D795F1;
+					};
+				};
+			};
+			buildConfigurationList = 199C398D2C6B970400D795F1 /* Build configuration list for PBXProject "Weiboo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 199C39892C6B970400D795F1;
+			productRefGroup = 199C39932C6B970400D795F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				199C39912C6B970400D795F1 /* Weiboo */,
+				199C39A12C6B970700D795F1 /* WeibooTests */,
+				199C39AB2C6B970700D795F1 /* WeibooUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		199C39902C6B970400D795F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199C3A672C6B9E6E00D795F1 /* eb5c94aely8fmvumnl9baj20v90v9q49.jpg in Resources */,
+				199C3A402C6B9E6E00D795F1 /* 700a34f6gy1gaunswy5qnj20j60pkadk.jpg in Resources */,
+				199C3A4D2C6B9E6E00D795F1 /* 76297935ly1gatz8obqvkj22c0340npe.jpg in Resources */,
+				199C3A512C6B9E6E00D795F1 /* bca7fdafly1gax1gqd9vmj20c80ayaam.jpg in Resources */,
+				199C3A212C6B9E6D00D795F1 /* 6ec3b446gy1gavd4xud8lj20j60qkwj0.jpg in Resources */,
+				199C3A682C6B9E6E00D795F1 /* PostListData_hot_1.json in Resources */,
+				199C3A542C6B9E6E00D795F1 /* bca7fdafly1gax1gqdnboj20c80atmxp.jpg in Resources */,
+				199C3A652C6B9E6E00D795F1 /* eb5c94aegy1gav26fycwlj20zk1h8drh.jpg in Resources */,
+				199C3A562C6B9E6E00D795F1 /* bca7fdafly1gax1gqfgsjj20c80axaay.jpg in Resources */,
+				199C3A3B2C6B9E6D00D795F1 /* 9dc7402fgy1gavd367p0pj20j60nywic.jpg in Resources */,
+				199C3A2D2C6B9E6D00D795F1 /* 7f9147a5ly1fzxlgxgzpij20e90fltsj.jpg in Resources */,
+				199C3A2C2C6B9E6D00D795F1 /* 006PdkDoly8ffywe2fq39j304g04gwed.jpg in Resources */,
+				199C3A192C6B9E6D00D795F1 /* 4e7f0c83gy1gam2ml6nucj22tc240kjl.jpg in Resources */,
+				199C3A382C6B9E6D00D795F1 /* 9dc7402fgy1gavd38kqjtj20j60nyn1d.jpg in Resources */,
+				199C3A662C6B9E6E00D795F1 /* eb5c94aegy1gav2509cp5j20zk0k0n2j.jpg in Resources */,
+				199C3A312C6B9E6D00D795F1 /* 8a0b5544gy1gauy2flua6j20u00hitab.jpg in Resources */,
+				199C3A242C6B9E6D00D795F1 /* 6ec3b446jw1e8qgp5bmzyj2050050aa8.jpg in Resources */,
+				199C3A4A2C6B9E6E00D795F1 /* 630584a6ly8fqs5wwkkmrj20ku0kuta7.jpg in Resources */,
+				199C3A692C6B9E6E00D795F1 /* PostListData_recommend_1.json in Resources */,
+				199C3A5C2C6B9E6E00D795F1 /* c5aa834fly8g97m8ix9lcj20re0regnk.jpg in Resources */,
+				199C3A4E2C6B9E6E00D795F1 /* 76297935ly1gatz89dzblj23402c0qv6.jpg in Resources */,
+				199C3A612C6B9E6E00D795F1 /* d0c21786ly1gavj2d17d9j20c808zq3r.jpg in Resources */,
+				199C3A392C6B9E6D00D795F1 /* 9dc7402fgy1gavd38wwlrj20j60nyq6y.jpg in Resources */,
+				199C3A602C6B9E6E00D795F1 /* d0c21786ly1gavj2cowp9j20c8083ab4.jpg in Resources */,
+				199C3A432C6B9E6E00D795F1 /* 700a34f6gy1gaunsxhp4pj20j60pkn1k.jpg in Resources */,
+				199C3A1E2C6B9E6D00D795F1 /* 005tnxzUly8gab4i2r73xj30u00u0js8.jpg in Resources */,
+				199C3A292C6B9E6D00D795F1 /* 006gWxMEly8g0bjpl3ynij30kv0kv773.jpg in Resources */,
+				199C3A362C6B9E6D00D795F1 /* 8a0b5544jw1e8qgp5bmzyj2050050aa8.jpg in Resources */,
+				199C3A572C6B9E6E00D795F1 /* c5aa834fgy1gauzr6venkj20u01hc12f.jpg in Resources */,
+				199C3A3C2C6B9E6D00D795F1 /* 9dc7402fjw1e8qgp5bmzyj2050050aa8.jpg in Resources */,
+				199C3A372C6B9E6D00D795F1 /* 9dc7402fgy1gavd37l9nwj20j60ny44q.jpg in Resources */,
+				199C3A462C6B9E6E00D795F1 /* 630584a6gy1gau54zgaxhj20m80et0vq.jpg in Resources */,
+				199C3A5D2C6B9E6E00D795F1 /* d0c21786ly1gavj2btv6tj20c80790tg.jpg in Resources */,
+				199C3A622C6B9E6E00D795F1 /* d0c21786ly8fsax1ftiifj20ro0ro43g.jpg in Resources */,
+				199C3A1B2C6B9E6D00D795F1 /* 4e7f0c83gy1gam2mp0x4pj22tc240u0x.jpg in Resources */,
+				199C3A5E2C6B9E6E00D795F1 /* d0c21786ly1gavj2c0kcej20c8096dh7.jpg in Resources */,
+				199C3A4F2C6B9E6E00D795F1 /* 76297935ly8g4phfkq68hj20u00u0mzt.jpg in Resources */,
+				199C3A1D2C6B9E6D00D795F1 /* 4e7f0c83ly8g1ho507078j20ro0rojtq.jpg in Resources */,
+				199C3A632C6B9E6E00D795F1 /* eb5c94aegy1gav25n5ibjj20zk1h8wuu.jpg in Resources */,
+				199C3A2B2C6B9E6D00D795F1 /* 006PdkDogy1gap6ngj12ej30u011itf7.jpg in Resources */,
+				199C3A352C6B9E6D00D795F1 /* 8a0b5544gy1gauy2hcozsj20u01czdiy.jpg in Resources */,
+				199C3A482C6B9E6E00D795F1 /* 630584a6gy1gau54zm4dtj20m80dftbv.jpg in Resources */,
+				199C3A582C6B9E6E00D795F1 /* c5aa834fgy1gauzr8ok78j20tz12fk8w.jpg in Resources */,
+				199C3A332C6B9E6D00D795F1 /* 8a0b5544gy1gauy2gmkg9j20u00gegnp.jpg in Resources */,
+				199C3A182C6B9E6D00D795F1 /* 4e7f0c83gy1gam2mjhk8zj21hc0v6wnx.jpg in Resources */,
+				199C3A4B2C6B9E6E00D795F1 /* 76297935ly1gatz8g5rvxj22c03401kz.jpg in Resources */,
+				199C3A252C6B9E6D00D795F1 /* 006gWxMEly1gavap8dywoj30hs0bwq48.jpg in Resources */,
+				199C3A5A2C6B9E6E00D795F1 /* c5aa834fgy1gauzr95r6fj20tw0l3dq4.jpg in Resources */,
+				199C3A522C6B9E6E00D795F1 /* bca7fdafly1gax1gqdg6qj20c80avdgl.jpg in Resources */,
+				199C3A1F2C6B9E6D00D795F1 /* 6a2afec3gy1gaulykcejqj20t5145wns.jpg in Resources */,
+				199C3A172C6B9E6D00D795F1 /* 4e7f0c83gy1gam2misv31j21hc0u016k.jpg in Resources */,
+				199C3A642C6B9E6E00D795F1 /* eb5c94aegy1gav25ox6dvj20u00k1go9.jpg in Resources */,
+				199C3A202C6B9E6D00D795F1 /* 6a2afec3jw8fb4ld0qf2gj20e80dsdfz.jpg in Resources */,
+				199C3A3A2C6B9E6D00D795F1 /* 9dc7402fgy1gavd39ba15j20j60nywii.jpg in Resources */,
+				199C3A272C6B9E6D00D795F1 /* 006gWxMEly1gavap86qr9j30ht0qo40t.jpg in Resources */,
+				199C3A1C2C6B9E6D00D795F1 /* 4e7f0c83gy1gam2mr1b81j22tc2407wi.jpg in Resources */,
+				199C3A2A2C6B9E6D00D795F1 /* 006PdkDogy1gap6ngiyn3j30u011idle.jpg in Resources */,
+				199C3A3D2C6B9E6E00D795F1 /* 648ed25bjw8est9nqrtnij20500503yr.jpg in Resources */,
+				199C3A322C6B9E6D00D795F1 /* 8a0b5544gy1gauy2g35yoj20u00fomzf.jpg in Resources */,
+				199C3A472C6B9E6E00D795F1 /* 630584a6gy1gau54zl806j20m80etmzo.jpg in Resources */,
+				199C3A232C6B9E6D00D795F1 /* 6ec3b446gy1gavd523embj20j60pytd6.jpg in Resources */,
+				199C3A222C6B9E6D00D795F1 /* 6ec3b446gy1gavd51jc4lj20j60pmwhl.jpg in Resources */,
+				199C3A342C6B9E6D00D795F1 /* 8a0b5544gy1gauy2gz000j20u00n6wgj.jpg in Resources */,
+				199C3A5B2C6B9E6E00D795F1 /* c5aa834fgy1gauzrb7s5ej20tz13qh5x.jpg in Resources */,
+				199C3A4C2C6B9E6E00D795F1 /* 76297935ly1gatz8k5itij22c02c01ky.jpg in Resources */,
+				199C3A282C6B9E6D00D795F1 /* 006gWxMEly1gavap88gttj30hs0a0dgf.jpg in Resources */,
+				199C3A422C6B9E6E00D795F1 /* 700a34f6gy1gaunsxgzixj20j60edmz8.jpg in Resources */,
+				199C3A2F2C6B9E6D00D795F1 /* 7f9147a5ly1fzxlh6hzdnj20e90fl7me.jpg in Resources */,
+				199C3A302C6B9E6D00D795F1 /* 8a0b5544gy1gauy2ex786j20u0129aed.jpg in Resources */,
+				199C3A5F2C6B9E6E00D795F1 /* d0c21786ly1gavj2cdrkyj20c80720tg.jpg in Resources */,
+				199C3A3F2C6B9E6E00D795F1 /* 700a34f6gy1gaunswxtlrj20j60pkgok.jpg in Resources */,
+				199C3A502C6B9E6E00D795F1 /* bca7fdafgw1ekhkps65b1j2050050dg4.jpg in Resources */,
+				199C3A552C6B9E6E00D795F1 /* bca7fdafly1gax1gqehdaj20c80atq3x.jpg in Resources */,
+				199C3A3E2C6B9E6E00D795F1 /* 700a34f6gy1gaunswwui7j20j60pl78e.jpg in Resources */,
+				199C3A1A2C6B9E6D00D795F1 /* 4e7f0c83gy1gam2mn58d3j22tc240qv5.jpg in Resources */,
+				199C399D2C6B970600D795F1 /* Preview Assets.xcassets in Resources */,
+				199C3A452C6B9E6E00D795F1 /* 8697cf1ely8gashxj3b09j20u00u040v.jpg in Resources */,
+				199C3A262C6B9E6D00D795F1 /* 006gWxMEly1gavap8vsqaj30hs0bwgm6.jpg in Resources */,
+				199C399A2C6B970600D795F1 /* Assets.xcassets in Resources */,
+				199C3A592C6B9E6E00D795F1 /* c5aa834fgy1gauzr86bp5j20pb0w47in.jpg in Resources */,
+				199C3A532C6B9E6E00D795F1 /* bca7fdafly1gax1gqdhouj20c80axaam.jpg in Resources */,
+				199C3A412C6B9E6E00D795F1 /* 700a34f6gy1gaunsx2jywj20j60pkaeu.jpg in Resources */,
+				199C3A2E2C6B9E6D00D795F1 /* 7f9147a5ly1fzxlh4ovuej20e90fl4fo.jpg in Resources */,
+				199C3A442C6B9E6E00D795F1 /* 700a34f6ly8g9a29rjt92j20fn0iqdg8.jpg in Resources */,
+				199C3A492C6B9E6E00D795F1 /* 630584a6gy1gau54zyj61j20m80etn07.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199C39A02C6B970700D795F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199C39AA2C6B970700D795F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E6F0386B4D3A184E791C701 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Weiboo-WeibooUITests/Pods-Weiboo-WeibooUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Weiboo-WeibooUITests/Pods-Weiboo-WeibooUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Weiboo-WeibooUITests/Pods-Weiboo-WeibooUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27AB6C3F661A2B4497707A2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Weiboo-WeibooUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57B3E8885BB00309FA632382 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Weiboo/Pods-Weiboo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Weiboo/Pods-Weiboo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Weiboo/Pods-Weiboo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A37302504151166691071D08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeibooTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA228F09FEA9FC128C5F7EDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Weiboo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		199C398E2C6B970400D795F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B12F292C70D44B00773450 /* NetworkManager.swift in Sources */,
+				19B12F272C70D43E00773450 /* NetworkAPI.swift in Sources */,
+				192A76012C6CF276005901A9 /* PostDetailView.swift in Sources */,
+				199C39982C6B970400D795F1 /* ContentView.swift in Sources */,
+				199C3A6F2C6BA54F00D795F1 /* PostModel.swift in Sources */,
+				191580432C707F9000C88057 /* CustomButtonStyle.swift in Sources */,
+				199C3A6B2C6BA1B600D795F1 /* PostVipBadge.swift in Sources */,
+				19F10AB72C6E49EF00702EA1 /* CommentTextView.swift in Sources */,
+				19F10AB92C6E4EBC00702EA1 /* KeyboardResponder.swift in Sources */,
+				19E3D2852C6BB33000BBD4C2 /* PostCellToolBarButton.swift in Sources */,
+				192A76052C6D026C005901A9 /* HomeView.swift in Sources */,
+				192A76072C6D045B005901A9 /* UserData.swift in Sources */,
+				199C39962C6B970400D795F1 /* WeibooApp.swift in Sources */,
+				192A76032C6CFCD2005901A9 /* HomeNavigationBar.swift in Sources */,
+				19F10AB52C6E475200702EA1 /* CommentInputView.swift in Sources */,
+				192A76092C6D159A005901A9 /* HScrollViewController.swift in Sources */,
+				199C39C22C6B989000D795F1 /* PostCell.swift in Sources */,
+				19E3D2872C6BBA2800BBD4C2 /* PostListView.swift in Sources */,
+				19E3D2892C6BC3BA00BBD4C2 /* PostImageCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199C399E2C6B970700D795F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199C39A72C6B970700D795F1 /* WeibooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199C39A82C6B970700D795F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199C39B12C6B970700D795F1 /* WeibooUITests.swift in Sources */,
+				199C39B32C6B970700D795F1 /* WeibooUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		199C39A42C6B970700D795F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 199C39912C6B970400D795F1 /* Weiboo */;
+			targetProxy = 199C39A32C6B970700D795F1 /* PBXContainerItemProxy */;
+		};
+		199C39AE2C6B970700D795F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 199C39912C6B970400D795F1 /* Weiboo */;
+			targetProxy = 199C39AD2C6B970700D795F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		199C39B42C6B970700D795F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		199C39B52C6B970700D795F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		199C39B72C6B970700D795F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF5FE60D381102A8DDFA42EA /* Pods-Weiboo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Weiboo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hanrovey.cn.Weiboo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		199C39B82C6B970700D795F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1C9CED9E746137E2992AD60 /* Pods-Weiboo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Weiboo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hanrovey.cn.Weiboo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		199C39BA2C6B970700D795F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFF2D5F787902BF8213CD25E /* Pods-WeibooTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hanrovey.cn.WeibooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weiboo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Weiboo";
+			};
+			name = Debug;
+		};
+		199C39BB2C6B970700D795F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B3F05C948C9F61D8AA3299B /* Pods-WeibooTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hanrovey.cn.WeibooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weiboo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Weiboo";
+			};
+			name = Release;
+		};
+		199C39BD2C6B970700D795F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95418E083B1F8F61F7F21CC2 /* Pods-Weiboo-WeibooUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hanrovey.cn.WeibooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Weiboo;
+			};
+			name = Debug;
+		};
+		199C39BE2C6B970700D795F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A346E461A81055ECB35BEC7 /* Pods-Weiboo-WeibooUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hanrovey.cn.WeibooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Weiboo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		199C398D2C6B970400D795F1 /* Build configuration list for PBXProject "Weiboo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199C39B42C6B970700D795F1 /* Debug */,
+				199C39B52C6B970700D795F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		199C39B62C6B970700D795F1 /* Build configuration list for PBXNativeTarget "Weiboo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199C39B72C6B970700D795F1 /* Debug */,
+				199C39B82C6B970700D795F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		199C39B92C6B970700D795F1 /* Build configuration list for PBXNativeTarget "WeibooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199C39BA2C6B970700D795F1 /* Debug */,
+				199C39BB2C6B970700D795F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		199C39BC2C6B970700D795F1 /* Build configuration list for PBXNativeTarget "WeibooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199C39BD2C6B970700D795F1 /* Debug */,
+				199C39BE2C6B970700D795F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 199C398A2C6B970400D795F1 /* Project object */;
+}
